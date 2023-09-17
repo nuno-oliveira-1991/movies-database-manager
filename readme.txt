@@ -1,5 +1,7 @@
-This is an app that you can use to see movie trilers and rate them. If you have access to it you can even extend the movie-trailer database.
-It was developed as a react project by Nuno Oliveira during a FullStack Development course at EDIT, Porto.
+///  RATE YOUR MOVIE APP
+
+This is an app that you can use to see movie trailers and rate them. You can register/login your account and watch trailers, leave comments an ratings and if you have special access account you can even extend or update the movie-trailer database.
+It was developed as a backend project by Nuno Oliveira during a FullStack Development course at EDIT, Porto.
 
 To run this app:
 
