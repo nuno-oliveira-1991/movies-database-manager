@@ -1,0 +1,78 @@
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 5em;
+  height: calc(100% - 9em);
+  width: calc(100% - 8em);
+  max-width: 1600px;
+  padding: 4em 4em 0;
+}
+.container nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.container nav form {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4em;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.container nav form select {
+  border: none;
+  box-shadow: none;
+  padding: 0.4em 0.4em;
+  color: gray;
+}
+.container nav form select option {
+  border: none;
+  box-shadow: none;
+}
+.container nav form input {
+  border: none;
+  width: 70%;
+  padding: 0 0.6em;
+  height: 2em;
+}
+
+.manage-menu {
+  display: flex;
+  gap: 1em;
+}
+.manage-menu button {
+  width: 100%;
+}
+
+.tools-menu {
+  display: flex;
+  gap: 1em;
+}
+
+.form-button {
+  border: none;
+  padding: 0.4em 0.8em;
+  color: gray;
+}
+
+.add-movie-button {
+  border: none;
+  padding: 0.4em 0.8em;
+  background-color: gray;
+  color: white;
+  width: 8%;
+  height: 100%;
+  align-self: flex-end;
+}
+
+.results-list {
+  overflow-y: scroll;
+  height: 100%;
+}/*# sourceMappingURL=back-office.styles.module.css.map */

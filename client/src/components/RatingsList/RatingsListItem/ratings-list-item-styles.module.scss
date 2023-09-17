@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 1.5em;
+  background-color: lightgray;
+  margin-bottom: 1em;
+
+  p {
+    margin: 0;
+    font-style: italic;
+  }
+}
+
+.user-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8em;
+
+  h4, h2 {
+    margin: 0
+  }
+
+  span {margin: 0 1em}
+}

@@ -1,0 +1,47 @@
+.container {
+  background-color: lightgray;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+    box-sizing: border-box;
+
+    div {
+      display: flex;
+    }
+  }
+  label {
+    color: gray;
+  }
+
+  input {
+    margin: 1em 0 1em;
+    border: none;
+    height: 2em;
+  }
+}
+
+.input-fields-container {
+  display: flex;
+  gap: 2em;
+}
+
+.form-dividers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  width: 100%;
+  align-self: baseline;
+}

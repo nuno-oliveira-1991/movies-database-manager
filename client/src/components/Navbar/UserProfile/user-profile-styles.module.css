@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+}
+.container span {
+  background-color: gray;
+  color: lightgray;
+  font-size: 1em;
+  vertical-align: center;
+  letter-spacing: 0.15em;
+  margin-right: 2em;
+}
+
+#back-office-link {
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  background-color: rgb(160, 160, 160);
+  width: 8em;
+  height: 2em;
+  padding: 0;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  margin-right: 1em;
+  cursor: pointer;
+}/*# sourceMappingURL=user-profile-styles.module.css.map */

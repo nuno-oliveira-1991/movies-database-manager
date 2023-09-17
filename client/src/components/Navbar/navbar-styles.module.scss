@@ -1,0 +1,41 @@
+.container {
+  background-color: gray;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+  width: 100%;
+  box-sizing: border-box;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 4em;
+  }
+
+  h2 {
+    color: lightgray;
+    letter-spacing: 0.18em;
+    margin: 0
+  }
+}
+
+.menu {
+  display: flex;
+
+  button {
+    margin-left: 1em;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  img {margin-right: 1em;}
+}

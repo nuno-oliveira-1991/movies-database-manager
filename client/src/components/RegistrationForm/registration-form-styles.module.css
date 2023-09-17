@@ -1,0 +1,33 @@
+.container {
+  background-color: lightgray;
+  position: relative;
+  padding: 2em;
+  top: 0;
+  left: 100%;
+  transform: translate(-100%, 0);
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+}
+.container label {
+  color: gray;
+}
+.container input {
+  margin: 1em 0 2em;
+  border: none;
+  height: 2em;
+}
+.container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.error {
+  color: gray;
+  margin-top: 3em;
+  text-align: center;
+}/*# sourceMappingURL=registration-form-styles.module.css.map */

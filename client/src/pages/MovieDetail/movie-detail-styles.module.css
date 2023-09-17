@@ -1,0 +1,43 @@
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 5em;
+  width: calc(100% - 8em);
+  height: calc(100% - 9em);
+  padding: 4em 4em 0;
+  max-width: 1600px;
+}
+
+.movie-info {
+  margin-right: 4em;
+}
+.movie-info img {
+  max-height: 25em;
+  margin-bottom: 1em;
+}
+.movie-info a {
+  text-decoration: none;
+}
+
+.movie-info-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.movie-info-title h2, .movie-info-title h5 {
+  margin: 0;
+  text-align: start;
+  vertical-align: baseline;
+}
+
+.movie-genres {
+  display: flex;
+  margin: 1em 0;
+  font-size: 0.8em;
+}
+.movie-genres span {
+  margin: 0 1em 0 0;
+}/*# sourceMappingURL=movie-detail-styles.module.css.map */

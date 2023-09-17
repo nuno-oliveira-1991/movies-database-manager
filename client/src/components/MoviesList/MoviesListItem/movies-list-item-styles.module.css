@@ -1,0 +1,21 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+.container h3 {
+  margin: 0 0 0.5em;
+}
+.container span {
+  margin-bottom: 0.5em;
+}
+.container img {
+  max-height: 10em;
+  margin-right: 1em;
+}/*# sourceMappingURL=movies-list-item-styles.module.css.map */

@@ -1,0 +1,30 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding: 0.5em 1em;
+}
+.container h5 {
+  position: relative;
+  width: 25%;
+  margin: 0 2em 0 0;
+}
+.container span {
+  position: relative;
+  width: 25%;
+  margin: 0;
+  font-size: 0.85em;
+  font-style: italic;
+}
+.container div {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.container div button {
+  border: none;
+  margin: 0 0.5em;
+}/*# sourceMappingURL=movie-manage-item.module.css.map */

@@ -1,0 +1,10 @@
+.container {
+  margin: auto;
+  display: flex;
+  position: relative;
+  width: calc(100% - 8em);
+  height: calc(100% - 9em);
+  top: 5em;
+  padding: 4em 4em 0;
+  max-width: 1600px;
+}/*# sourceMappingURL=home-styles.module.css.map */

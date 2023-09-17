@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  max-width: 1600px;
+  gap: 1em;
+}
+.container form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.container form input {
+  height: 2em;
+  padding: 0 0.6em;
+}
+.container form span {
+  color: gray;
+}
+
+.form-button {
+  border: none;
+  padding: 0.4em 0.8em;
+  color: gray;
+}
+
+.reset-button {
+  border: none;
+  padding: 0.4em 0.8em;
+  background-color: gray;
+  color: white;
+  width: 8%;
+  height: 100%;
+  align-self: flex-end;
+}
+
+.buttons-container {
+  position: relative;
+  display: flex;
+  gap: 1em;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+}/*# sourceMappingURL=search-user-form-styles.module.css.map */

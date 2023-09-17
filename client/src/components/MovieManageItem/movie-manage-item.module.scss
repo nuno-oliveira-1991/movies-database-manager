@@ -1,0 +1,33 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding: 0.5em 1em;
+
+  h5 {
+    position: relative;
+    width: 25%;
+    margin: 0 2em 0 0;
+  }
+
+  span {
+    position: relative;
+    width: 25%;
+    margin: 0;
+    font-size: 0.85em;
+    font-style: italic;
+  }
+
+  div {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    button {
+      border: none;
+      margin: 0 0.5em;
+    }
+  }
+}

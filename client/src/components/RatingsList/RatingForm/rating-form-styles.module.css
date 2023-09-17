@@ -1,0 +1,33 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  margin-bottom: 1em;
+}
+.container form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container form div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.container input {
+  border: none;
+  margin: 0 2em;
+  height: 100%;
+  text-align: center;
+}
+
+.rating-input {
+  max-width: 3em;
+}
+
+.comment-input {
+  width: 100%;
+}/*# sourceMappingURL=rating-form-styles.module.css.map */

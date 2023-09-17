@@ -1,0 +1,13 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  position: absolute;
+  padding: 2em;
+}
+.container form {
+  display: flex;
+  width: 100%;
+}
+.container input {
+  border: none;
+}/*# sourceMappingURL=rating-form-styles-module.css.map */

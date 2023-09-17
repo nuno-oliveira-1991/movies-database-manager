@@ -1,0 +1,25 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 1em;
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    margin: 0 0 0.5em;
+  }
+
+  span {
+    margin-bottom: 0.5em;
+  }
+
+  img {
+    max-height: 10em;
+    margin-right: 1em;
+  }
+}

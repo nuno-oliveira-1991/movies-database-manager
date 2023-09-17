@@ -1,0 +1,18 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.container h2 {
+  color: gray;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+}
+.menu button {
+  margin-left: 1em;
+}/*# sourceMappingURL=navbar-style.module.css.map */
