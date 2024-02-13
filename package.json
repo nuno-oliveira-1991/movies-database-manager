@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx nodemon",
-    "start": "cross-env NODE_ENV=prod node build/index",
+    "start": "node build/index",
     "build": "npx tsc"
   },
   "keywords": [],
