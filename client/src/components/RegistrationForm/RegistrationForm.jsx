@@ -20,7 +20,7 @@ const RegistrationForm = () => {
       localStorage.removeItem("userEmail");
       localStorage.removeItem("userRoles");
 
-      const response = await fetch("http://localhost:6969/api/register", {
+      const response = await fetch("https://movies-database-manager.fly.dev/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

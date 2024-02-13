@@ -20,7 +20,7 @@ const Pagination = () => {
   
   async function getAllUsers() {
     try {
-      const response = await fetch(`http://localhost:6969/api/users?page=${currentPage}`, {
+      const response = await fetch(`https://movies-database-manager.fly.dev/api/users?page=${currentPage}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

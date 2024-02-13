@@ -18,7 +18,7 @@ const MovieManageItem = ({ movieId, movieTitle, movieGenres }) => {
 
   const handleDeleteMovie = async () => {
     try {
-      const response = await fetch(`http://localhost:6969/api/movies/${movieId}`, {
+      const response = await fetch(`https://movies-database-manager.fly.dev/api/movies/${movieId}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

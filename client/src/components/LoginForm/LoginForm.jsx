@@ -22,7 +22,7 @@ const LoginForm = () => {
       setIsUserLoggedIn(false);
       setUserName(undefined)
 
-      const response = await fetch("http://localhost:6969/api/login", {
+      const response = await fetch("https://movies-database-manager.fly.dev/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

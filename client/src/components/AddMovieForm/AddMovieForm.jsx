@@ -31,7 +31,7 @@ const AddMovieForm = () => {
         console.log(genre.trim().toLowerCase())
         return genre.trim().toLowerCase()
       });
-      const response = await fetch("http://localhost:6969/api/movies", {
+      const response = await fetch("https://movies-database-manager.fly.dev/api/movies", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

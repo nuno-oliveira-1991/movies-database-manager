@@ -31,7 +31,7 @@ const UpdateUserForm = () => {
         updatedRoles.roles = rolesOutputArray
       }
       const userAccessToken = localStorage.getItem("accessToken");
-      const response = await fetch(`http://localhost:6969/api/users/${userToUpdateId}`, {
+      const response = await fetch(`https://movies-database-manager.fly.dev/api/users/${userToUpdateId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

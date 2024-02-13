@@ -13,7 +13,7 @@ const RatingForm = () => {
       const userName = localStorage.getItem("userName");
       const userEmail = localStorage.getItem("userEmail");
 
-      const response = await fetch(`http://localhost:6969/api/movies/ratings/${movieId}`, {
+      const response = await fetch(`https://movies-database-manager.fly.dev/api/movies/ratings/${movieId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

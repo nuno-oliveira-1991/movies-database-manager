@@ -24,7 +24,7 @@ const UserManageItem = ({ userId, userName, userEmail, userRoles }) => {
   const handleDeleteUser = async () => {
     try {
       const userAccessToken = localStorage.getItem("accessToken");
-      const response = await fetch(`http://localhost:6969/api/users/${userId}`, {
+      const response = await fetch(`https://movies-database-manager.fly.dev/api/users/${userId}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
