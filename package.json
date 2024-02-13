@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "npx nodemon",
-    "start": "npm run build && cross-env NODE_ENV=prod node build/index",
-    "build": "rimraf ./build && npx tsc"
+    "start": "cross-env NODE_ENV=prod node build/index",
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
