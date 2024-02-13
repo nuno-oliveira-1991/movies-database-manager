@@ -39,7 +39,7 @@ const Pagination = () => {
 
   async function getAllMovies() {
     try {
-      const response = await fetch(`http://localhost:6969/api/movies?page=${currentPage}`, {
+      const response = await fetch(`https://movies-database-manager.fly.dev/api/movies?page=${currentPage}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
