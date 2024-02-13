@@ -41,7 +41,7 @@ const Home = () => {
 
   useEffect(() => {
     if (isUserLoggedIn) {
-      fetch('http://localhost:6969/api/movies/')
+      fetch('https://movies-database-manager.fly.dev/api/movies/')
       .then((response) => response.json())
       .then((data) => {
         setAllMovies(data.movies)

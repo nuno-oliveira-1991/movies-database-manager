@@ -43,7 +43,7 @@ const BackOffice = () => {
     setBackOfficeMode(true);
     setAddMovieMode(false);
     setUpdateMovieMode(false);
-    fetch('http://localhost:6969/api/users/')
+    fetch('https://movies-database-manager.fly.dev/api/users/')
     .then((response) => response.json())
     .then((data) => {
       setAllUsers(data.users)
